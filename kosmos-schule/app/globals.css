@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+body {
+  font-family: system-ui, sans-serif;
+  color: #0b1d3f;
+  background: #f6f8fc;
+}
+
+.btn {
+  background: #0b1d3f;
+  color: #fff;
+  border-radius: 12px;
+  padding: .55rem 1rem;
+  font-size: .875rem;
+  transition: .2s;
+}
+
+.btn:hover {
+  background: #1d3a7a;
+  transform: translateY(-1px);
+}
+
+input:not([type=checkbox]):not([type=color]),
+select,
+textarea {
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: .5rem .7rem;
+  width: 100%;
+  background: #fff;
+}
+
+input[type=color] {
+  width: 100%;
+  min-height: 40px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 2px;
+  background: #fff;
+}
